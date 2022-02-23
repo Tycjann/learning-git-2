@@ -1,1 +1,47 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section .container {
+  max-width: 500px;
+}
+
+section .container hr {
+  border: 1px solid #d1d1d1;
+  margin-top: 50px;
+}
+
+section .container p.disc {
+  margin-top: 0;
+}
+/*# sourceMappingURL=style.css.map */

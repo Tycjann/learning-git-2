@@ -1,0 +1,50 @@
+// Variables
+$font-family-01: 'Comfortaa', cursive;
+$font-family-02: 'Dancing Script', cursive;
+$font-family-03: 'Noto Serif', serif;
+
+$color-01: rgb(209, 209, 209);
+
+// Globals
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family-03;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: $font-family-01;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: $font-family-02;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+// Container
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .container {
+        max-width: 500px;
+
+        hr {
+            border: 1px solid $color-01;
+            margin-top: 50px;
+        }
+
+        p {
+            &.disc {
+                margin-top: 0;
+            }
+        }
+    }
+}
